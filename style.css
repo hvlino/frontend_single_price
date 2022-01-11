@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+body, html {
+    background-color: #e5eef5;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+	font-family: 'Karla', sans-serif;   
+    font-size: 16px;
+}
+
+footer {
+    display: none;
+}
+
+.site {
+    width: 100%;
+    max-width: 640px;
+    min-height: 470px;
+    margin: auto;
+    display: grid;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    background-color: #FFF;
+    overflow: hidden;
+}
+
+/* .site > div {
+    border: 1px solid #000;
+} */
+
+.site .description {
+    padding: 44px 38px;
+}
+
+.site .description > div {
+    border: 1px solid red;
+}
+
+.site .description h1 {
+    margin-bottom: 26px;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #2bb3b1;
+}
+
+.site .description h2 {
+    padding-bottom:14px;
+    font-weight: bold;
+    font-size: 1.15em;
+    color: hsl(71, 73%, 54%);
+}
+
+.site .description p {
+    color: #9299a1;
+    line-height: 1.8em;
+}
+
+.site .group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+}
+
+@media (max-width: 520px) {
+    .site .group {
+        grid-template-columns: 1fr;
+    }   
+}
+
+
+.site .group .price {
+    background-color: #2bb3b1;
+    color: white;
+}
+
+.site .group .price h2 {
+    margin-bottom: 24px;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.site .group .price .pprice {
+    color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.site .group .price .pprice strong {
+    font-size: 2em;
+    color: white;
+    font-weight: bold;
+    margin-right: 12px;
+}
+
+.site .group .price .paccess {
+    margin-bottom: 30px;
+}
+
+.site .group .price a {
+    background-color: hsl(71, 73%, 54%);    
+    border-radius: 5px;
+    display: block;
+    height: 46px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2)
+}
+
+
+.site .group > div {
+    padding: 44px 38px;
+}
+
+.site .group .whyus {
+    background-color: #4abebd;
+}
+
+.site .group .whyus h2 {
+    padding-bottom: 28px;
+    font-weight: bold;
+}
+
+.site .group .whyus ul {
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.3em;
+    font-size: 0.9em;
+}
