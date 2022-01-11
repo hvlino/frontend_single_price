@@ -1,5 +1,7 @@
 # Frontend Mentor - Single price grid component
 
+## Site is ready to be published at https://hvlino.github.io/frontend_single_price/
+
 ![Design preview for the Single price grid component coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
